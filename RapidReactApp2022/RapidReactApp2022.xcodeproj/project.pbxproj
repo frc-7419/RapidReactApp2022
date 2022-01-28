@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0027A46D620082644A /* AppDelegate.swift */; };
+		9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0227A46D620082644A /* SceneDelegate.swift */; };
+		9EE8ED0527A46D620082644A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0427A46D620082644A /* ViewController.swift */; };
+		9EE8ED0827A46D620082644A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0627A46D620082644A /* Main.storyboard */; };
+		9EE8ED0A27A46D650082644A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0927A46D650082644A /* Assets.xcassets */; };
+		9EE8ED0D27A46D650082644A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0B27A46D650082644A /* LaunchScreen.storyboard */; };
+		9EE8ED1827A46D650082644A /* RapidReactApp2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED1727A46D650082644A /* RapidReactApp2022Tests.swift */; };
+		9EE8ED2227A46D650082644A /* RapidReactApp2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED2127A46D650082644A /* RapidReactApp2022UITests.swift */; };
+		9EE8ED2427A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */; };
+		9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3227A4732E0082644A /* AutonUI.storyboard */; };
+		9EE8ED3527A4733C0082644A /* TeleOpUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */; };
+		9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3627A473450082644A /* EndGameUI.storyboard */; };
+		9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3827A473500082644A /* ProblemsUI.storyboard */; };
+		9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */; };
+		9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EE8ED1427A46D650082644A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE8ECF527A46D620082644A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE8ECFC27A46D620082644A;
+			remoteInfo = RapidReactApp2022;
+		};
+		9EE8ED1E27A46D650082644A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EE8ECF527A46D620082644A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EE8ECFC27A46D620082644A;
+			remoteInfo = RapidReactApp2022;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EE8ECFD27A46D620082644A /* RapidReactApp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidReactApp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE8ED0027A46D620082644A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EE8ED0227A46D620082644A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9EE8ED0427A46D620082644A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EE8ED0727A46D620082644A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EE8ED0927A46D650082644A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EE8ED0C27A46D650082644A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EE8ED0E27A46D650082644A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE8ED1327A46D650082644A /* RapidReactApp2022Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidReactApp2022Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE8ED1727A46D650082644A /* RapidReactApp2022Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022Tests.swift; sourceTree = "<group>"; };
+		9EE8ED1D27A46D650082644A /* RapidReactApp2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidReactApp2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EE8ED2127A46D650082644A /* RapidReactApp2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022UITests.swift; sourceTree = "<group>"; };
+		9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EE8ED3227A4732E0082644A /* AutonUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutonUI.storyboard; sourceTree = "<group>"; };
+		9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TeleOpUI.storyboard; sourceTree = "<group>"; };
+		9EE8ED3627A473450082644A /* EndGameUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EndGameUI.storyboard; sourceTree = "<group>"; };
+		9EE8ED3827A473500082644A /* ProblemsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProblemsUI.storyboard; sourceTree = "<group>"; };
+		9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScoutingUI.storyboard; sourceTree = "<group>"; };
+		9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EE8ECFA27A46D620082644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED1027A46D650082644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED1A27A46D650082644A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EE8ECF427A46D620082644A = {
+			isa = PBXGroup;
+			children = (
+				9EE8ECFF27A46D620082644A /* RapidReactApp2022 */,
+				9EE8ED1627A46D650082644A /* RapidReactApp2022Tests */,
+				9EE8ED2027A46D650082644A /* RapidReactApp2022UITests */,
+				9EE8ECFE27A46D620082644A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EE8ECFE27A46D620082644A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8ECFD27A46D620082644A /* RapidReactApp2022.app */,
+				9EE8ED1327A46D650082644A /* RapidReactApp2022Tests.xctest */,
+				9EE8ED1D27A46D650082644A /* RapidReactApp2022UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE8ECFF27A46D620082644A /* RapidReactApp2022 */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8ED0027A46D620082644A /* AppDelegate.swift */,
+				9EE8ED0227A46D620082644A /* SceneDelegate.swift */,
+				9EE8ED0427A46D620082644A /* ViewController.swift */,
+				9EE8ED0627A46D620082644A /* Main.storyboard */,
+				9EE8ED3227A4732E0082644A /* AutonUI.storyboard */,
+				9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */,
+				9EE8ED3627A473450082644A /* EndGameUI.storyboard */,
+				9EE8ED3827A473500082644A /* ProblemsUI.storyboard */,
+				9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */,
+				9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */,
+				9EE8ED0927A46D650082644A /* Assets.xcassets */,
+				9EE8ED0B27A46D650082644A /* LaunchScreen.storyboard */,
+				9EE8ED0E27A46D650082644A /* Info.plist */,
+			);
+			path = RapidReactApp2022;
+			sourceTree = "<group>";
+		};
+		9EE8ED1627A46D650082644A /* RapidReactApp2022Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8ED1727A46D650082644A /* RapidReactApp2022Tests.swift */,
+			);
+			path = RapidReactApp2022Tests;
+			sourceTree = "<group>";
+		};
+		9EE8ED2027A46D650082644A /* RapidReactApp2022UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EE8ED2127A46D650082644A /* RapidReactApp2022UITests.swift */,
+				9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */,
+			);
+			path = RapidReactApp2022UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EE8ECFC27A46D620082644A /* RapidReactApp2022 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE8ED2727A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022" */;
+			buildPhases = (
+				9EE8ECF927A46D620082644A /* Sources */,
+				9EE8ECFA27A46D620082644A /* Frameworks */,
+				9EE8ECFB27A46D620082644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapidReactApp2022;
+			productName = RapidReactApp2022;
+			productReference = 9EE8ECFD27A46D620082644A /* RapidReactApp2022.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EE8ED1227A46D650082644A /* RapidReactApp2022Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE8ED2A27A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022Tests" */;
+			buildPhases = (
+				9EE8ED0F27A46D650082644A /* Sources */,
+				9EE8ED1027A46D650082644A /* Frameworks */,
+				9EE8ED1127A46D650082644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE8ED1527A46D650082644A /* PBXTargetDependency */,
+			);
+			name = RapidReactApp2022Tests;
+			productName = RapidReactApp2022Tests;
+			productReference = 9EE8ED1327A46D650082644A /* RapidReactApp2022Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EE8ED1C27A46D650082644A /* RapidReactApp2022UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE8ED2D27A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022UITests" */;
+			buildPhases = (
+				9EE8ED1927A46D650082644A /* Sources */,
+				9EE8ED1A27A46D650082644A /* Frameworks */,
+				9EE8ED1B27A46D650082644A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EE8ED1F27A46D650082644A /* PBXTargetDependency */,
+			);
+			name = RapidReactApp2022UITests;
+			productName = RapidReactApp2022UITests;
+			productReference = 9EE8ED1D27A46D650082644A /* RapidReactApp2022UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EE8ECF527A46D620082644A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9EE8ECFC27A46D620082644A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9EE8ED1227A46D650082644A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9EE8ECFC27A46D620082644A;
+					};
+					9EE8ED1C27A46D650082644A = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9EE8ECFC27A46D620082644A;
+					};
+				};
+			};
+			buildConfigurationList = 9EE8ECF827A46D620082644A /* Build configuration list for PBXProject "RapidReactApp2022" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EE8ECF427A46D620082644A;
+			productRefGroup = 9EE8ECFE27A46D620082644A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EE8ECFC27A46D620082644A /* RapidReactApp2022 */,
+				9EE8ED1227A46D650082644A /* RapidReactApp2022Tests */,
+				9EE8ED1C27A46D650082644A /* RapidReactApp2022UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EE8ECFB27A46D620082644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */,
+				9EE8ED0D27A46D650082644A /* LaunchScreen.storyboard in Resources */,
+				9EE8ED0A27A46D650082644A /* Assets.xcassets in Resources */,
+				9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */,
+				9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */,
+				9EE8ED0827A46D620082644A /* Main.storyboard in Resources */,
+				9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */,
+				9EE8ED3527A4733C0082644A /* TeleOpUI.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED1127A46D650082644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED1B27A46D650082644A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EE8ECF927A46D620082644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8ED0527A46D620082644A /* ViewController.swift in Sources */,
+				9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */,
+				9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */,
+				9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED0F27A46D650082644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8ED1827A46D650082644A /* RapidReactApp2022Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE8ED1927A46D650082644A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE8ED2227A46D650082644A /* RapidReactApp2022UITests.swift in Sources */,
+				9EE8ED2427A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EE8ED1527A46D650082644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE8ECFC27A46D620082644A /* RapidReactApp2022 */;
+			targetProxy = 9EE8ED1427A46D650082644A /* PBXContainerItemProxy */;
+		};
+		9EE8ED1F27A46D650082644A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EE8ECFC27A46D620082644A /* RapidReactApp2022 */;
+			targetProxy = 9EE8ED1E27A46D650082644A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EE8ED0627A46D620082644A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE8ED0727A46D620082644A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EE8ED0B27A46D650082644A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EE8ED0C27A46D650082644A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EE8ED2527A46D650082644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EE8ED2627A46D650082644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EE8ED2827A46D650082644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RapidReactApp2022/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rapid React";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EE8ED2927A46D650082644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RapidReactApp2022/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Rapid React";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EE8ED2B27A46D650082644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidReactApp2022.app/RapidReactApp2022";
+			};
+			name = Debug;
+		};
+		9EE8ED2C27A46D650082644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidReactApp2022.app/RapidReactApp2022";
+			};
+			name = Release;
+		};
+		9EE8ED2E27A46D650082644A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidReactApp2022;
+			};
+			name = Debug;
+		};
+		9EE8ED2F27A46D650082644A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaravwattal.RapidReact.RapidReactApp2022UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidReactApp2022;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EE8ECF827A46D620082644A /* Build configuration list for PBXProject "RapidReactApp2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8ED2527A46D650082644A /* Debug */,
+				9EE8ED2627A46D650082644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE8ED2727A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8ED2827A46D650082644A /* Debug */,
+				9EE8ED2927A46D650082644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE8ED2A27A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8ED2B27A46D650082644A /* Debug */,
+				9EE8ED2C27A46D650082644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE8ED2D27A46D650082644A /* Build configuration list for PBXNativeTarget "RapidReactApp2022UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EE8ED2E27A46D650082644A /* Debug */,
+				9EE8ED2F27A46D650082644A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EE8ECF527A46D620082644A /* Project object */;
+}
