@@ -11,7 +11,7 @@
         <!--Problems Table View Controller-->
         <scene sceneID="Ywm-Pi-nn2">
             <objects>
-                <tableViewController id="8Nj-x8-Ugg" customClass="ProblemsTableViewController" customModule="problemsui" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="8Nj-x8-Ugg" customClass="ProblemsTableViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="BrO-YY-6BQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
