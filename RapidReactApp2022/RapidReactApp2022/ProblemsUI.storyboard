@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yDs-yf-hQU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bRU-R6-EKI">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -8,91 +8,95 @@
     </dependencies>
     <scenes>
         <!--Problems Table View Controller-->
-        <scene sceneID="rnK-cl-3mU">
+        <scene sceneID="qQr-J1-dGJ">
             <objects>
-                <tableViewController storyboardIdentifier="ProblemsTableView" id="yDs-yf-hQU" customClass="ProblemsTableViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="R0h-VI-z0K">
+                <tableViewController storyboardIdentifier="ProblemsTableView" id="bRU-R6-EKI" customClass="ProblemsTableViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="s6F-tT-ijD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problems" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FYc-3P-8j1">
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Problems" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2cr-sd-70S">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="24"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="problemCell" id="bR5-Cd-qJ0" customClass="ProblemTableViewCell" customModule="RapidReactApp2022" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="problemCell" id="2pb-pq-dcK" customClass="ProblemTableViewCell" customModule="RapidReactApp2022" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="88.5" width="414" height="31"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bR5-Cd-qJ0" id="qWQ-dV-Fuj">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2pb-pq-dcK" id="nCe-hT-kNE">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="31"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="xDg-MF-ySY">
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3uE-ia-Sdh">
                                             <rect key="frame" x="10" y="0.0" width="394" height="31"/>
                                             <subviews>
-                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UDq-09-7FP">
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kjv-JH-QIl">
                                                     <rect key="frame" x="0.0" y="0.0" width="238" height="31"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
+                                                    <connections>
+                                                        <action selector="textFieldChanged:" destination="2pb-pq-dcK" eventType="editingChanged" id="rFs-Gn-K4k"/>
+                                                    </connections>
                                                 </textField>
-                                                <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r9z-5K-eB3">
+                                                <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a4J-hT-wN5">
                                                     <rect key="frame" x="248" y="0.0" width="87" height="31"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="87" id="Eia-au-bgU"/>
+                                                        <constraint firstAttribute="width" constant="87" id="FRC-GE-Eo1"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
                                                 </button>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cjX-5S-V4L">
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JNP-D1-ZPI">
                                                     <rect key="frame" x="345" y="0.0" width="51" height="31"/>
                                                 </switch>
                                             </subviews>
                                         </stackView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="xDg-MF-ySY" firstAttribute="top" secondItem="qWQ-dV-Fuj" secondAttribute="top" id="70w-tz-4c8"/>
-                                        <constraint firstItem="xDg-MF-ySY" firstAttribute="leading" secondItem="qWQ-dV-Fuj" secondAttribute="leading" constant="10" id="9xX-5w-1YL"/>
-                                        <constraint firstItem="xDg-MF-ySY" firstAttribute="centerY" secondItem="qWQ-dV-Fuj" secondAttribute="centerY" id="DSb-kZ-Vp1"/>
-                                        <constraint firstAttribute="trailing" secondItem="xDg-MF-ySY" secondAttribute="trailing" constant="10" id="nW4-Pf-hEQ"/>
+                                        <constraint firstItem="3uE-ia-Sdh" firstAttribute="centerY" secondItem="nCe-hT-kNE" secondAttribute="centerY" id="ALl-rd-R2p"/>
+                                        <constraint firstItem="3uE-ia-Sdh" firstAttribute="leading" secondItem="nCe-hT-kNE" secondAttribute="leading" constant="10" id="hcZ-ul-XEZ"/>
+                                        <constraint firstAttribute="trailing" secondItem="3uE-ia-Sdh" secondAttribute="trailing" constant="10" id="izh-Lq-b4Z"/>
+                                        <constraint firstItem="3uE-ia-Sdh" firstAttribute="top" secondItem="nCe-hT-kNE" secondAttribute="top" id="uji-Dd-LP0"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="gameSectionButton" destination="r9z-5K-eB3" id="S6t-Av-gu8"/>
+                                    <outlet property="gameSectionButton" destination="a4J-hT-wN5" id="wkd-d8-Dht"/>
+                                    <outlet property="problemToggle" destination="JNP-D1-ZPI" id="Cbb-Ls-hfs"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="addProblemCell" id="pR9-rX-YNm" customClass="AddProblemTableViewCell" customModule="RapidReactApp2022" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="addProblemCell" id="jAg-0G-bFb" customClass="AddProblemTableViewCell" customModule="RapidReactApp2022" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="119.5" width="414" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pR9-rX-YNm" id="xpG-S6-yLW">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jAg-0G-bFb" id="f19-Aj-qv8">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgv-ad-0ml">
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkb-qf-pYM">
                                             <rect key="frame" x="10" y="10" width="33" height="31"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="filled" title="+" cornerStyle="large"/>
                                         </button>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="Vgv-ad-0ml" secondAttribute="bottom" constant="10" id="OWV-7G-P5n"/>
-                                        <constraint firstItem="Vgv-ad-0ml" firstAttribute="top" secondItem="xpG-S6-yLW" secondAttribute="top" constant="10" id="Vhb-Wi-sZB"/>
-                                        <constraint firstItem="Vgv-ad-0ml" firstAttribute="leading" secondItem="xpG-S6-yLW" secondAttribute="leading" constant="10" id="jI3-Id-R1B"/>
+                                        <constraint firstAttribute="bottom" secondItem="Jkb-qf-pYM" secondAttribute="bottom" constant="10" id="i8j-q7-dvq"/>
+                                        <constraint firstItem="Jkb-qf-pYM" firstAttribute="top" secondItem="f19-Aj-qv8" secondAttribute="top" constant="10" id="mDw-3q-W0t"/>
+                                        <constraint firstItem="Jkb-qf-pYM" firstAttribute="leading" secondItem="f19-Aj-qv8" secondAttribute="leading" constant="10" id="nYb-e8-um4"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="addProblemButton" destination="Vgv-ad-0ml" id="b71-zR-6DZ"/>
+                                    <outlet property="addProblemButton" destination="Jkb-qf-pYM" id="78V-LM-3kp"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
                         <sections/>
                         <connections>
-                            <outlet property="dataSource" destination="yDs-yf-hQU" id="uvk-gY-mQe"/>
-                            <outlet property="delegate" destination="yDs-yf-hQU" id="1yR-rL-YKW"/>
+                            <outlet property="dataSource" destination="bRU-R6-EKI" id="4bY-7M-FL8"/>
+                            <outlet property="delegate" destination="bRU-R6-EKI" id="r7l-Nz-gN8"/>
                         </connections>
                     </tableView>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vB0-aN-kEq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nod-VJ-qrE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-242" y="-589"/>
         </scene>
