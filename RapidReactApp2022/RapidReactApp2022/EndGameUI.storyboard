@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8sg-n9-9V7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -38,6 +38,9 @@
                                     <segment title="Traversal"/>
                                 </segments>
                                 <color key="selectedSegmentTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="SegmententedControl:" destination="8sg-n9-9V7" eventType="valueChanged" id="UYC-B9-0Z3"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balls Scored" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-C7-hQ9">
                                 <rect key="frame" x="30" y="315" width="116" height="27"/>
@@ -68,11 +71,17 @@
                                 <rect key="frame" x="335" y="396" width="51" height="31"/>
                                 <color key="onTintColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="thumbTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="ScoringBonusSwitch:" destination="8sg-n9-9V7" eventType="valueChanged" id="UAo-BP-F9g"/>
+                                </connections>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3le-zp-TPP">
                                 <rect key="frame" x="335" y="476" width="51" height="31"/>
                                 <color key="onTintColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="thumbTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="HangerBonuw:" destination="8sg-n9-9V7" eventType="valueChanged" id="OHe-Zz-S4T"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n6e-Rm-7nK">
                                 <rect key="frame" x="261" y="314" width="15" height="28"/>
