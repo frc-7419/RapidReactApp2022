@@ -20,6 +20,12 @@ class TeleOpViewController: UIViewController {
         updateScore.text = ""
     }
     var totalScore = 0
+    
+    @IBAction func clickedUpperHubStepper(_ sender: UIStepper) {
+        totalScore += Int(sender.value)
+        updateScore.text =
+            String(totalScore)
+    }
     @IBAction func clickedLowerHubStepper(_ sender: UIStepper) {
         totalScore += Int(sender.value)
         updateScore.text = String(totalScore)

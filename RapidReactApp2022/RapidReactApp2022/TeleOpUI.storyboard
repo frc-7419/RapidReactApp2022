@@ -60,6 +60,7 @@
                                         <rect key="frame" x="12.5" y="48" width="94" height="32"/>
                                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                         <connections>
+                                            <action selector="clickedUpperHubStepper:" destination="Y4U-Xn-0XY" eventType="valueChanged" id="Xx5-T7-p28"/>
                                             <action selector="upperStepper:" destination="Y4U-Xn-0XY" eventType="valueChanged" id="QH1-Ua-okl"/>
                                         </connections>
                                     </stepper>
