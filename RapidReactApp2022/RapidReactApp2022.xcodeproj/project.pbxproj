@@ -22,7 +22,7 @@
 		9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3827A473500082644A /* ProblemsUI.storyboard */; };
 		9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */; };
 		9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */; };
-		EC36D75327AA5B4E007721B1 /* TeleOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC36D75227AA5B4E007721B1 /* TeleOpViewController.swift */; };
+		EC06EA1027AB32CE0026DCD8 /* TeleOpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC06EA0F27AB32CE0026DCD8 /* TeleOpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		9EE8ED3827A473500082644A /* ProblemsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProblemsUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScoutingUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsTableViewController.swift; sourceTree = "<group>"; };
-		EC36D75227AA5B4E007721B1 /* TeleOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleOpViewController.swift; sourceTree = "<group>"; };
+		EC06EA0F27AB32CE0026DCD8 /* TeleOpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleOpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,6 @@
 				9EE8ED0627A46D620082644A /* Main.storyboard */,
 				9EE8ED3227A4732E0082644A /* AutonUI.storyboard */,
 				9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */,
-				EC36D75227AA5B4E007721B1 /* TeleOpViewController.swift */,
 				9EE8ED3627A473450082644A /* EndGameUI.storyboard */,
 				9EE8ED3827A473500082644A /* ProblemsUI.storyboard */,
 				9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */,
@@ -127,6 +126,7 @@
 				9EE8ED0927A46D650082644A /* Assets.xcassets */,
 				9EE8ED0B27A46D650082644A /* LaunchScreen.storyboard */,
 				9EE8ED0E27A46D650082644A /* Info.plist */,
+				EC06EA0F27AB32CE0026DCD8 /* TeleOpViewController.swift */,
 			);
 			path = RapidReactApp2022;
 			sourceTree = "<group>";
@@ -287,7 +287,7 @@
 				9EE8ED0527A46D620082644A /* ViewController.swift in Sources */,
 				9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */,
 				9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */,
-				EC36D75327AA5B4E007721B1 /* TeleOpViewController.swift in Sources */,
+				EC06EA1027AB32CE0026DCD8 /* TeleOpViewController.swift in Sources */,
 				9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

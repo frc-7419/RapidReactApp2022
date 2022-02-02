@@ -2,29 +2,28 @@
 //  TeleOpViewController.swift
 //  RapidReactApp2022
 //
-//  Created by Kelly Wu on 2/1/22.
+//  Created by Kelly Wu on 2/2/22.
 //
 
-import Foundation
 import UIKit
 
 class TeleOpViewController: UIViewController {
-
-    @IBOutlet weak var lowerLabel: UILabel!
-    @IBOutlet weak var upperLabel: UILabel!
+    
+    @IBOutlet weak var updateScore: UILabel!
+    @IBOutlet weak var lowerHubStepper: UIStepper!
+    @IBOutlet weak var upperHubStepper: UIStepper!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
+        updateScore.text = ""
     }
+    var totalScore = 0
+    @IBAction func clickedLowerHubStepper(_ sender: UIStepper) {
+        totalScore += Int(sender.value)
+        updateScore.text = String(totalScore)
+    }
+    
 
-    @IBAction func lowerStepper(_ sender: UIStepper) {
-        lowerLabel.text = String(Int(sender.value));
-    }
-    @IBAction func upperStepper(_ sender: UIStepper) {
-        upperLabel.text = String(Int(sender.value));
-    }
-    
-    
 }
-
