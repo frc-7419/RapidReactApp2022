@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E89FD7627AB6C2600EB40C7 /* navigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E89FD7527AB6C2600EB40C7 /* navigationController.swift */; };
 		9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0027A46D620082644A /* AppDelegate.swift */; };
 		9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0227A46D620082644A /* SceneDelegate.swift */; };
 		9EE8ED0527A46D620082644A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0427A46D620082644A /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E89FD7527AB6C2600EB40C7 /* navigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationController.swift; sourceTree = "<group>"; };
 		9EE8ECFD27A46D620082644A /* RapidReactApp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidReactApp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE8ED0027A46D620082644A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE8ED0227A46D620082644A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				9EE8ED0627A46D620082644A /* Main.storyboard */,
 				9EE8ED3227A4732E0082644A /* AutonUI.storyboard */,
 				9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */,
+				9E89FD7527AB6C2600EB40C7 /* navigationController.swift */,
 				9EE8ED3627A473450082644A /* EndGameUI.storyboard */,
 				9EE8ED3827A473500082644A /* ProblemsUI.storyboard */,
 				9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */,
@@ -284,6 +287,7 @@
 				9EE8ED0527A46D620082644A /* ViewController.swift in Sources */,
 				9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */,
 				9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */,
+				9E89FD7627AB6C2600EB40C7 /* navigationController.swift in Sources */,
 				9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
