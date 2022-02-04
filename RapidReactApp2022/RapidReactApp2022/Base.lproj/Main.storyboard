@@ -33,7 +33,7 @@
         <!--Auton-->
         <scene sceneID="Ioz-My-72y">
             <objects>
-                <viewController id="TZy-gp-yoJ" customClass="ViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TZy-gp-yoJ" customClass="OneViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yi8-n9-pUF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -163,7 +163,7 @@
         <!--TeleOp-->
         <scene sceneID="Jp9-NO-OaG">
             <objects>
-                <viewController id="Cn1-Ec-tzY" customClass="ViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Cn1-Ec-tzY" customClass="TwoViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="N5F-wF-7fd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -298,7 +298,7 @@
         <!--Endgame-->
         <scene sceneID="m1s-7n-fdx">
             <objects>
-                <viewController id="EDw-Xf-xcY" sceneMemberID="viewController">
+                <viewController id="EDw-Xf-xcY" customClass="ThreeViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B11-02-QNi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -485,7 +485,7 @@
         <!--Scouting-->
         <scene sceneID="Ubh-wK-lz7">
             <objects>
-                <viewController id="Fza-LZ-Sea" sceneMemberID="viewController">
+                <viewController id="Fza-LZ-Sea" customClass="FourViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FTq-P1-NNS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
