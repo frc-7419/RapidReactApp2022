@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="Vav-Ms-ZwH">
             <objects>
-                <viewController id="Y4U-Xn-0XY" customClass="ViewController" customModule="RapidReact2022_TeleOp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y4U-Xn-0XY" customClass="ViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddL-qb-2VK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

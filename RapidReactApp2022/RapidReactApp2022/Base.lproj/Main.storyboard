@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Rbe-6w-3aU">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -23,8 +23,134 @@
             </objects>
             <point key="canvasLocation" x="35" y="94"/>
         </scene>
+        <!--Endgame View Controller-->
+        <scene sceneID="xS1-TJ-t2e">
+            <objects>
+                <viewController id="Rbe-6w-3aU" customClass="EndgameViewController" customModule="RapidReactApp2022" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Ah-Wy-UfD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Endgame" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVV-86-rLl">
+                                <rect key="frame" x="142.5" y="89" width="129" height="38.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="32"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hanger Level Reached" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caj-17-Z9j">
+                                <rect key="frame" x="30" y="187.5" width="210.5" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bRO-pF-ITr">
+                                <rect key="frame" x="30" y="229.5" width="354" height="32"/>
+                                <color key="backgroundColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <segments>
+                                    <segment title="Low"/>
+                                    <segment title="Mid"/>
+                                    <segment title="High"/>
+                                    <segment title="Traversal"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="SegmentedControl:" destination="Rbe-6w-3aU" eventType="valueChanged" id="9PA-cj-sLY"/>
+                                    <action selector="SegmententedControl:" destination="Rbe-6w-3aU" eventType="valueChanged" id="Jg6-4b-ZOt"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Balls Scored" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRP-EN-sh7">
+                                <rect key="frame" x="30" y="315" width="116" height="27"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PSM-JI-fu5">
+                                <rect key="frame" x="290" y="312" width="94" height="32"/>
+                                <color key="backgroundColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="Stepper:" destination="Rbe-6w-3aU" eventType="valueChanged" id="GQ1-Qt-FWu"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scoring Bonus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D1g-20-J5Q">
+                                <rect key="frame" x="30" y="396.5" width="136" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hanger Bonus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPI-uJ-pFj">
+                                <rect key="frame" x="30" y="477.5" width="139" height="28"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
+                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mNY-vD-xLV">
+                                <rect key="frame" x="335" y="396" width="51" height="31"/>
+                                <color key="onTintColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="HangerBonus:" destination="Rbe-6w-3aU" eventType="valueChanged" id="x2W-qp-RmV"/>
+                                    <action selector="ScoringBonusSwitch:" destination="Rbe-6w-3aU" eventType="valueChanged" id="3CJ-gS-yRC"/>
+                                </connections>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZUO-xb-hYa">
+                                <rect key="frame" x="335" y="476" width="51" height="31"/>
+                                <color key="onTintColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="thumbTintColor" red="0.41397128929999999" green="0.62961699429999995" blue="0.64599131570000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="HangerBonuw:" destination="Rbe-6w-3aU" eventType="valueChanged" id="QoU-xg-nJk"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa8-Vl-LXm">
+                                <rect key="frame" x="261" y="314" width="15" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TSa-JI-jGP"/>
+                        <color key="backgroundColor" red="0.12871263429999999" green="0.14216038819999999" blue="0.1890164" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="bRO-pF-ITr" firstAttribute="top" secondItem="caj-17-Z9j" secondAttribute="bottom" constant="15" id="3IE-59-42b"/>
+                            <constraint firstItem="caj-17-Z9j" firstAttribute="top" secondItem="NVV-86-rLl" secondAttribute="bottom" constant="60" id="4sN-Sb-Nol"/>
+                            <constraint firstItem="NVV-86-rLl" firstAttribute="centerX" secondItem="7Ah-Wy-UfD" secondAttribute="centerX" id="56F-Hj-pmW"/>
+                            <constraint firstItem="bRO-pF-ITr" firstAttribute="leading" secondItem="TSa-JI-jGP" secondAttribute="leading" constant="30" id="66D-XC-ZjN"/>
+                            <constraint firstItem="NVV-86-rLl" firstAttribute="top" secondItem="TSa-JI-jGP" secondAttribute="top" constant="45" id="8bC-x9-iXe"/>
+                            <constraint firstItem="caj-17-Z9j" firstAttribute="leading" secondItem="TSa-JI-jGP" secondAttribute="leading" constant="30" id="CJT-NS-IPu"/>
+                            <constraint firstItem="D1g-20-J5Q" firstAttribute="top" secondItem="BRP-EN-sh7" secondAttribute="bottom" constant="54.5" id="Dua-3q-KR2"/>
+                            <constraint firstItem="TSa-JI-jGP" firstAttribute="trailing" secondItem="mNY-vD-xLV" secondAttribute="trailing" constant="30" id="F5i-Jm-IIO"/>
+                            <constraint firstItem="sPI-uJ-pFj" firstAttribute="leading" secondItem="TSa-JI-jGP" secondAttribute="leading" constant="30" id="IBj-TO-qYZ"/>
+                            <constraint firstItem="BRP-EN-sh7" firstAttribute="top" secondItem="bRO-pF-ITr" secondAttribute="bottom" constant="54.5" id="Kp8-PS-au6"/>
+                            <constraint firstItem="TSa-JI-jGP" firstAttribute="trailing" secondItem="ZUO-xb-hYa" secondAttribute="trailing" constant="30" id="LDQ-Hx-rkG"/>
+                            <constraint firstItem="ZUO-xb-hYa" firstAttribute="top" secondItem="mNY-vD-xLV" secondAttribute="bottom" constant="49" id="MTd-FY-M5H"/>
+                            <constraint firstItem="sPI-uJ-pFj" firstAttribute="top" secondItem="D1g-20-J5Q" secondAttribute="bottom" constant="54.5" id="Mac-kj-0hn"/>
+                            <constraint firstItem="TSa-JI-jGP" firstAttribute="trailing" secondItem="PSM-JI-fu5" secondAttribute="trailing" constant="30" id="P7w-pB-raU"/>
+                            <constraint firstItem="D1g-20-J5Q" firstAttribute="leading" secondItem="TSa-JI-jGP" secondAttribute="leading" constant="30" id="XzD-ZO-G2X"/>
+                            <constraint firstItem="BRP-EN-sh7" firstAttribute="leading" secondItem="TSa-JI-jGP" secondAttribute="leading" constant="30" id="aLj-mP-68x"/>
+                            <constraint firstItem="NVV-86-rLl" firstAttribute="centerX" secondItem="7Ah-Wy-UfD" secondAttribute="centerX" id="abH-4J-WAb"/>
+                            <constraint firstItem="TSa-JI-jGP" firstAttribute="trailing" secondItem="bRO-pF-ITr" secondAttribute="trailing" constant="30" id="bGi-mT-g8R"/>
+                            <constraint firstItem="PSM-JI-fu5" firstAttribute="leading" secondItem="sa8-Vl-LXm" secondAttribute="trailing" constant="14" id="dTL-Tw-EY2"/>
+                            <constraint firstItem="NVV-86-rLl" firstAttribute="centerX" secondItem="7Ah-Wy-UfD" secondAttribute="centerX" id="mYm-Xd-JqU"/>
+                            <constraint firstItem="mNY-vD-xLV" firstAttribute="top" secondItem="PSM-JI-fu5" secondAttribute="bottom" constant="52" id="wKW-So-iCr"/>
+                            <constraint firstItem="sa8-Vl-LXm" firstAttribute="top" secondItem="bRO-pF-ITr" secondAttribute="bottom" constant="53.5" id="wRq-O8-S7u"/>
+                            <constraint firstItem="PSM-JI-fu5" firstAttribute="top" secondItem="bRO-pF-ITr" secondAttribute="bottom" constant="51.5" id="y5c-yO-zme"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="BallsLabel" destination="sa8-Vl-LXm" id="hXq-Bb-Ycb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GOG-yv-RbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-70" y="445"/>
+        </scene>
     </scenes>
     <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
