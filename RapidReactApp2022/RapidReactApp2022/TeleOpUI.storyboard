@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vyH-Zp-Rvz">
-                                <rect key="frame" x="48" y="194" width="110" height="80"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="vyH-Zp-Rvz">
+                                <rect key="frame" x="48" y="280" width="110" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lower Hub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KH7-NN-7Zr">
                                         <rect key="frame" x="7.5" y="0.0" width="95" height="24"/>
@@ -41,23 +41,23 @@
                                     </stepper>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pns-db-UsE">
-                                <rect key="frame" x="244" y="194" width="119" height="80"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="pns-db-UsE">
+                                <rect key="frame" x="244" y="280" width="122" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upper Hub" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkT-i8-aoB">
-                                        <rect key="frame" x="11.5" y="0.0" width="96.5" height="24"/>
+                                        <rect key="frame" x="13" y="0.0" width="96.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSy-k7-lAa">
-                                        <rect key="frame" x="53.5" y="24" width="12.5" height="24"/>
+                                        <rect key="frame" x="55" y="24" width="12.5" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZnJ-la-Klh">
-                                        <rect key="frame" x="12.5" y="48" width="94" height="32"/>
+                                        <rect key="frame" x="14" y="48" width="94" height="32"/>
                                         <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                         <connections>
                                             <action selector="clickedUpperHubStepper:" destination="Y4U-Xn-0XY" eventType="valueChanged" id="Xx5-T7-p28"/>
@@ -72,16 +72,14 @@
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Total Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wk-h3-bJJ">
-                                <rect key="frame" x="88" y="436" width="108" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Score: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Wk-h3-bJJ">
+                                <rect key="frame" x="59" y="522" width="108" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Update Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iK-mj-gsa">
-                                <rect key="frame" x="266" y="440" width="99" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iK-mj-gsa">
+                                <rect key="frame" x="233" y="526" width="98.5" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="16"/>
                                 <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -91,15 +89,20 @@
                         <color key="backgroundColor" red="0.12941176470588234" green="0.14117647058823529" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="yiP-q2-nhj" firstAttribute="trailing" secondItem="pns-db-UsE" secondAttribute="trailing" constant="48" id="DJf-we-01r"/>
+                            <constraint firstItem="1Wk-h3-bJJ" firstAttribute="leading" secondItem="yiP-q2-nhj" secondAttribute="leading" constant="59" id="1td-zi-e8e"/>
+                            <constraint firstItem="yiP-q2-nhj" firstAttribute="trailing" secondItem="4iK-mj-gsa" secondAttribute="trailing" constant="82.5" id="B48-bK-VGJ"/>
+                            <constraint firstItem="pns-db-UsE" firstAttribute="leading" secondItem="vyH-Zp-Rvz" secondAttribute="trailing" constant="86" id="FI0-3i-2rc"/>
                             <constraint firstItem="yiP-q2-nhj" firstAttribute="trailing" secondItem="vyH-Zp-Rvz" secondAttribute="trailing" constant="256" id="Kta-nd-2yG"/>
+                            <constraint firstItem="4iK-mj-gsa" firstAttribute="leading" secondItem="1Wk-h3-bJJ" secondAttribute="trailing" constant="66" id="NG3-lq-Nqh"/>
+                            <constraint firstItem="1Wk-h3-bJJ" firstAttribute="top" secondItem="vyH-Zp-Rvz" secondAttribute="bottom" constant="162" id="Npq-bV-tMy"/>
                             <constraint firstItem="yG1-Qd-n6a" firstAttribute="centerX" secondItem="ddL-qb-2VK" secondAttribute="centerX" id="VAs-vm-Cls"/>
+                            <constraint firstItem="4iK-mj-gsa" firstAttribute="leading" secondItem="1Wk-h3-bJJ" secondAttribute="trailing" constant="66" id="cUX-g5-lZu"/>
                             <constraint firstItem="yG1-Qd-n6a" firstAttribute="top" secondItem="yiP-q2-nhj" secondAttribute="top" constant="45" id="eyU-Gl-OgS"/>
                             <constraint firstItem="yiP-q2-nhj" firstAttribute="bottom" secondItem="vyH-Zp-Rvz" secondAttribute="bottom" constant="502" id="fKZ-R7-Hc4"/>
                             <constraint firstItem="yiP-q2-nhj" firstAttribute="bottom" secondItem="pns-db-UsE" secondAttribute="bottom" constant="502" id="hgI-5d-vn0"/>
                             <constraint firstItem="vyH-Zp-Rvz" firstAttribute="leading" secondItem="yiP-q2-nhj" secondAttribute="leading" constant="48" id="pcj-cz-IeR"/>
+                            <constraint firstItem="4iK-mj-gsa" firstAttribute="top" secondItem="pns-db-UsE" secondAttribute="bottom" constant="166" id="uq8-ui-Arh"/>
                             <constraint firstItem="yiP-q2-nhj" firstAttribute="trailing" secondItem="pns-db-UsE" secondAttribute="trailing" constant="48" id="vpb-at-7tk"/>
-                            <constraint firstItem="pns-db-UsE" firstAttribute="leading" secondItem="vyH-Zp-Rvz" secondAttribute="trailing" constant="89" id="ybw-ze-AdE"/>
                         </constraints>
                     </view>
                     <connections>
@@ -112,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1qH-gR-f6p" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="67.633928571428569"/>
+            <point key="canvasLocation" x="454" y="-76"/>
         </scene>
     </scenes>
     <resources>
