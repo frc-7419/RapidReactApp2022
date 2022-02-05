@@ -19,7 +19,6 @@
 		9EE8ED2427A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */; };
 		9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3227A4732E0082644A /* AutonUI.storyboard */; };
 		9EE8ED3527A4733C0082644A /* TeleOpUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */; };
-		9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3627A473450082644A /* EndGameUI.storyboard */; };
 		9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3827A473500082644A /* ProblemsUI.storyboard */; };
 		9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */; };
 		9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */; };
@@ -59,7 +58,6 @@
 		9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9EE8ED3227A4732E0082644A /* AutonUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutonUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TeleOpUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3627A473450082644A /* EndGameUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EndGameUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3827A473500082644A /* ProblemsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProblemsUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScoutingUI.storyboard; sourceTree = "<group>"; };
 		9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsTableViewController.swift; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				9EE8ED0627A46D620082644A /* Main.storyboard */,
 				9EE8ED3227A4732E0082644A /* AutonUI.storyboard */,
 				9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */,
-				9EE8ED3627A473450082644A /* EndGameUI.storyboard */,
 				7DE54DCF27A851A70093973F /* EndgameViewController.swift */,
 				9EE8ED3827A473500082644A /* ProblemsUI.storyboard */,
 				9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */,
@@ -255,7 +252,6 @@
 				9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */,
 				9EE8ED0D27A46D650082644A /* LaunchScreen.storyboard in Resources */,
 				9EE8ED0A27A46D650082644A /* Assets.xcassets in Resources */,
-				9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */,
 				9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */,
 				9EE8ED0827A46D620082644A /* Main.storyboard in Resources */,
 				9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */,

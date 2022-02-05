@@ -52,9 +52,6 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ubk-pI-yM1">
                                 <rect key="frame" x="304" y="312.33333333333331" width="94" height="32"/>
                                 <color key="backgroundColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <connections>
-                                    <action selector="Stepper:" destination="8sg-n9-9V7" eventType="valueChanged" id="eBu-aQ-YPu"/>
-                                </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scoring Bonus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPe-VU-ITg">
                                 <rect key="frame" x="30" y="478.33333333333331" width="136" height="27"/>
@@ -100,12 +97,6 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="iT0-ds-zuy">
                                 <rect key="frame" x="304" y="394.33333333333331" width="94" height="32"/>
                                 <color key="backgroundColor" red="0.72907514299999998" green="0.9309725888" blue="0.92736135679999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <connections>
-                                    <action selector="LowerHubStepper:" destination="8sg-n9-9V7" eventType="valueChanged" id="rMq-m9-IJM"/>
-                                    <action selector="LowerStepper:" destination="8sg-n9-9V7" eventType="valueChanged" id="rs5-pR-i8Z"/>
-                                    <action selector="Stepper:" destination="8sg-n9-9V7" eventType="valueChanged" id="1Bh-4s-L95"/>
-                                    <action selector="UpperStepper:" destination="8sg-n9-9V7" eventType="valueChanged" id="w0I-gC-rtF"/>
-                                </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3i8-Gc-iQb">
                                 <rect key="frame" x="279" y="396.33333333333331" width="15" height="28"/>
@@ -150,14 +141,10 @@
                             <constraint firstItem="i7O-MO-JPJ" firstAttribute="top" secondItem="Hjq-XD-C63" secondAttribute="top" constant="45" id="ztM-UY-7Ca"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="BallsLabel" destination="n6e-Rm-7nK" id="Jka-Tv-7Oj"/>
-                        <outlet property="LowerLabel" destination="3i8-Gc-iQb" id="5a3-LD-JqP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NpH-46-1Ea" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-426.08695652173918" y="245.75892857142856"/>
+            <point key="canvasLocation" x="-426.1682242990654" y="245.57235421166308"/>
         </scene>
     </scenes>
     <resources>
