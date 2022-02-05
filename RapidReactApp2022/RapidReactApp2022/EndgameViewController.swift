@@ -22,11 +22,13 @@ class EndgameViewController: UIViewController {
     //label for upperhub
     @IBOutlet weak var UpperLabel: UILabel!
     
+    @IBOutlet weak var TotalScoreLable: UILabel!
     
     //stepper for upperhub
     @IBAction func UpperStepper(_ sender: UIStepper) {
         UpperLabel.text = String(Int(sender.value))
-        //totalScore += 2 * Int(sender.value)
+        totalScore += 2 * Int(sender.value)
+        TotalScoreLable.text = String(totalScore)
     }
     
     //label for lowerhub
@@ -37,7 +39,8 @@ class EndgameViewController: UIViewController {
     @IBAction func LowerStepper(_ sender: UIStepper) {
         LowerLabel.text = String(Int(sender.value))
         //don't know if this works but ok
-        //totalScore += Int(sender.value)
+        totalScore += Int(sender.value)
+        TotalScoreLable.text = String(totalScore)
     }
     
     
@@ -79,5 +82,5 @@ class EndgameViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
+
 }
