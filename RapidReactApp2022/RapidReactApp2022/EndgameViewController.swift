@@ -18,6 +18,8 @@ class EndgameViewController: UIViewController {
     private var scoringBonus: Bool = false
     private var hangerBonus: Bool = false
     private var totalScore: Int = 0
+    private var upperScore: Int = 0
+    private var lowerScore: Int = 0
     
     //label for upperhub
     @IBOutlet weak var UpperLabel: UILabel!
@@ -27,8 +29,12 @@ class EndgameViewController: UIViewController {
     //stepper for upperhub
     @IBAction func UpperStepper(_ sender: UIStepper) {
         UpperLabel.text = String(Int(sender.value))
-        totalScore += 2 * Int(sender.value)
+        upperScore = Int(UpperLabel.text!)! * 2
+        lowerScore = Int(LowerLabel.text!)!
+        
+        totalScore = Int(upperScore + lowerScore)
         TotalScoreLable.text = String(totalScore)
+        
     }
     
     //label for lowerhub
@@ -39,7 +45,10 @@ class EndgameViewController: UIViewController {
     @IBAction func LowerStepper(_ sender: UIStepper) {
         LowerLabel.text = String(Int(sender.value))
         //don't know if this works but ok
-        totalScore += Int(sender.value)
+        upperScore = Int(UpperLabel.text!)! * 2
+        lowerScore = Int(LowerLabel.text!)!
+        
+        totalScore = Int(upperScore + lowerScore)
         TotalScoreLable.text = String(totalScore)
     }
     
