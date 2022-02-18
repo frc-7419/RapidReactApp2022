@@ -3,7 +3,6 @@ import UIKit
 
 class AddProblemTableViewCell: UITableViewCell {
     @IBOutlet weak var addProblemButton: UIButton!
-    
 }
 
 class ProblemTableViewCell: UITableViewCell {
@@ -37,7 +36,6 @@ class ProblemTableViewCell: UITableViewCell {
         // call manually because not UIEvent
         switchChanged()
         
-        print(self.data)
     }
     
     @IBOutlet weak var problemToggle: UISwitch! {
@@ -75,22 +73,39 @@ class ProblemsTableViewController: UITableViewController {
     
     var rows = 1
     
+    var problemCells: [ProblemTableViewCell] = []
+    
+    @IBAction func addTableRow(_ sender: Any) {
+        addRow()
+    }
+    @IBAction func submitData(_ sender: Any) {
+        var data: [[String: Any]] = []
+        for problemCell in self.problemCells {
+            data.append(problemCell.data)
+        }
+        print(data)
+    }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         var cell: UITableViewCell!
         
         if (indexPath.section == 0) { // problemCell
-//            let cell = tableView.dequeueReusableCell(withIdentifier: "problemCell", for: indexPath) as! ProblemTableViewCell
-            cell = tableView.dequeueReusableCell(withIdentifier: "problemCell", for: indexPath)
+            if (self.problemCells.indices.contains(indexPath.row)) {
+                cell =  self.problemCells[indexPath.row]
+            } else {
+                let cell_i = tableView.dequeueReusableCell(withIdentifier: "problemCell", for: indexPath) as! ProblemTableViewCell
+                self.problemCells.insert(cell_i, at: indexPath.row)
+                cell = cell_i
+            }
         }
         else if (indexPath.section == 1) { // addProblemCell
             let cell_i = tableView.dequeueReusableCell(withIdentifier: "addProblemCell", for: indexPath) as! AddProblemTableViewCell
-            cell_i.addProblemButton.addTarget(self, action: #selector(addRow), for: .touchUpInside)
             cell = cell_i
         }
         return cell
     }
     
-    @objc func addRow() {
+    func addRow() {
         rows += 1
         self.tableView.reloadData()
     }
