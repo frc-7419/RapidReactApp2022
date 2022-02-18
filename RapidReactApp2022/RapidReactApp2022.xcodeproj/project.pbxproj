@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9ECCA8AF27BF51A000518654 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECCA8AE27BF51A000518654 /* Global.swift */; };
 		9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0027A46D620082644A /* AppDelegate.swift */; };
 		9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0227A46D620082644A /* SceneDelegate.swift */; };
 		9EE8ED0527A46D620082644A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED0427A46D620082644A /* ViewController.swift */; };
@@ -16,12 +17,6 @@
 		9EE8ED1827A46D650082644A /* RapidReactApp2022Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED1727A46D650082644A /* RapidReactApp2022Tests.swift */; };
 		9EE8ED2227A46D650082644A /* RapidReactApp2022UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED2127A46D650082644A /* RapidReactApp2022UITests.swift */; };
 		9EE8ED2427A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */; };
-		9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3227A4732E0082644A /* AutonUI.storyboard */; };
-		9EE8ED3527A4733C0082644A /* TeleOpUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */; };
-		9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3627A473450082644A /* EndGameUI.storyboard */; };
-		9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3827A473500082644A /* ProblemsUI.storyboard */; };
-		9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */; };
-		9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9ECCA8AE27BF51A000518654 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		9EE8ECFD27A46D620082644A /* RapidReactApp2022.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidReactApp2022.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE8ED0027A46D620082644A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE8ED0227A46D620082644A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,12 +51,6 @@
 		9EE8ED1D27A46D650082644A /* RapidReactApp2022UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidReactApp2022UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE8ED2127A46D650082644A /* RapidReactApp2022UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022UITests.swift; sourceTree = "<group>"; };
 		9EE8ED2327A46D650082644A /* RapidReactApp2022UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RapidReactApp2022UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9EE8ED3227A4732E0082644A /* AutonUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AutonUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TeleOpUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3627A473450082644A /* EndGameUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EndGameUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3827A473500082644A /* ProblemsUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProblemsUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScoutingUI.storyboard; sourceTree = "<group>"; };
-		9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProblemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,15 +105,10 @@
 				9EE8ED0227A46D620082644A /* SceneDelegate.swift */,
 				9EE8ED0427A46D620082644A /* ViewController.swift */,
 				9EE8ED0627A46D620082644A /* Main.storyboard */,
-				9EE8ED3227A4732E0082644A /* AutonUI.storyboard */,
-				9EE8ED3427A4733C0082644A /* TeleOpUI.storyboard */,
-				9EE8ED3627A473450082644A /* EndGameUI.storyboard */,
-				9EE8ED3827A473500082644A /* ProblemsUI.storyboard */,
-				9EE8ED3C27A475720082644A /* ProblemsTableViewController.swift */,
-				9EE8ED3A27A474220082644A /* ScoutingUI.storyboard */,
 				9EE8ED0927A46D650082644A /* Assets.xcassets */,
 				9EE8ED0B27A46D650082644A /* LaunchScreen.storyboard */,
 				9EE8ED0E27A46D650082644A /* Info.plist */,
+				9ECCA8AE27BF51A000518654 /* Global.swift */,
 			);
 			path = RapidReactApp2022;
 			sourceTree = "<group>";
@@ -249,14 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EE8ED3927A473500082644A /* ProblemsUI.storyboard in Resources */,
 				9EE8ED0D27A46D650082644A /* LaunchScreen.storyboard in Resources */,
 				9EE8ED0A27A46D650082644A /* Assets.xcassets in Resources */,
-				9EE8ED3727A473450082644A /* EndGameUI.storyboard in Resources */,
-				9EE8ED3327A4732E0082644A /* AutonUI.storyboard in Resources */,
 				9EE8ED0827A46D620082644A /* Main.storyboard in Resources */,
-				9EE8ED3B27A474220082644A /* ScoutingUI.storyboard in Resources */,
-				9EE8ED3527A4733C0082644A /* TeleOpUI.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,8 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECCA8AF27BF51A000518654 /* Global.swift in Sources */,
 				9EE8ED0527A46D620082644A /* ViewController.swift in Sources */,
-				9EE8ED3D27A475720082644A /* ProblemsTableViewController.swift in Sources */,
 				9EE8ED0127A46D620082644A /* AppDelegate.swift in Sources */,
 				9EE8ED0327A46D620082644A /* SceneDelegate.swift in Sources */,
 			);
@@ -471,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
