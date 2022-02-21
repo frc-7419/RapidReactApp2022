@@ -613,7 +613,7 @@
         <scene sceneID="2Cy-BK-Sca">
             <objects>
                 <tableViewController storyboardIdentifier="ProblemsTableView" id="nzX-k4-LLm" customClass="ProblemsTableViewController" customModule="RapidReactFKLEWJF" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="886-1I-iYA">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="886-1I-iYA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.12941176469999999" green="0.14117647059999999" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -627,14 +627,14 @@
                         </label>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="problemCell" id="h6c-gl-EzP" customClass="ProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="88.5" width="414" height="31"/>
+                                <rect key="frame" x="0.0" y="88.5" width="414" height="41"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="h6c-gl-EzP" id="7Js-MF-72B">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="31"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3v3-on-zav">
-                                            <rect key="frame" x="25" y="0.0" width="364" height="31"/>
+                                            <rect key="frame" x="25" y="5" width="364" height="31"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xe3-fK-YJ6">
                                                     <rect key="frame" x="0.0" y="0.0" width="208" height="31"/>
@@ -658,9 +658,9 @@
                                         </stackView>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="3v3-on-zav" firstAttribute="top" secondItem="7Js-MF-72B" secondAttribute="top" constant="5" id="gA3-f0-e8i"/>
                                         <constraint firstItem="3v3-on-zav" firstAttribute="leading" secondItem="7Js-MF-72B" secondAttribute="leading" constant="25" id="iwB-zE-8sr"/>
                                         <constraint firstAttribute="trailing" secondItem="3v3-on-zav" secondAttribute="trailing" constant="25" id="n95-Ud-KOe"/>
-                                        <constraint firstItem="3v3-on-zav" firstAttribute="top" secondItem="7Js-MF-72B" secondAttribute="top" id="zkW-zI-S94"/>
                                         <constraint firstItem="3v3-on-zav" firstAttribute="centerY" secondItem="7Js-MF-72B" secondAttribute="centerY" id="zwo-BF-qlv"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -671,7 +671,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="addProblemCell" id="Bga-0U-Emk" customClass="AddProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="119.5" width="414" height="51"/>
+                                <rect key="frame" x="0.0" y="129.5" width="414" height="51"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Bga-0U-Emk" id="wGm-W0-pXH">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
@@ -698,7 +698,7 @@
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="submitCell" id="10L-nX-Nbk" userLabel="submitCell" customClass="AddProblemTableViewCell" customModule="RapidReactFKLEWJF" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="170.5" width="414" height="44"/>
+                                <rect key="frame" x="0.0" y="180.5" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="10L-nX-Nbk" id="4kN-e3-K1q">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
