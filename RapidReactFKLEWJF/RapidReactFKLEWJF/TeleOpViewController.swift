@@ -1,19 +1,22 @@
 import UIKit
 
 class TeleOpViewController: UIViewController {
+    
+    var totalScore = 0
 
     @IBOutlet weak var updateScore: UILabel!
     @IBOutlet weak var lowerHubStepper: UIStepper!
     @IBOutlet weak var upperHubStepper: UIStepper!
     @IBOutlet weak var lowerLabel: UILabel!
     @IBOutlet weak var upperLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        updateScore.text = ""
+        updateScore.text = totalScore.description // 0
     }
-    var totalScore = 0
+    
     @IBAction func clickedLowerHubStepper(_ sender: UIStepper) {
         lowerLabel.text = String(Int(sender.value))
         let lowerhubAdd = Int(lowerLabel.text!)

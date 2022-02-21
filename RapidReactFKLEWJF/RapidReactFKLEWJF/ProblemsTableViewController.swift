@@ -76,6 +76,12 @@ class ProblemsTableViewController: UITableViewController {
     var problemCells: [ProblemTableViewCell] = []
     var problemsArray: [Any] = []
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // aesthetic
+        tableView.contentInset.top = 30
+    }
+    
     @IBAction func addTableRow(_ sender: Any) {
         addRow()
     }
@@ -95,12 +101,7 @@ class ProblemsTableViewController: UITableViewController {
         
         global.problemsData = data
         
-        global.totalArray.append(global.scoutingArray)
-        global.totalArray.append(global.autonArray)
-        global.totalArray.append(global.teleOpArray)
-        global.totalArray.append(global.endGameArray)
-        global.totalArray.append(global.problemsData)
-        print(global.totalArray)
+        print(global.getTotalArray())
         
         // append all the arrays here
     }
